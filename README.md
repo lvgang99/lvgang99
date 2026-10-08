@@ -1,16 +1,72 @@
-## Hi there 👋
+# 임경표 | Embedded Software & Firmware
 
-<!--
-**lvgang99/lvgang99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+메카트로닉스공학을 전공하고 스마트팩토리를 복수전공했습니다.
+STM32 기반 장치 제어와 통신 구현, 전기차 성능시험 경험을 바탕으로
+하드웨어의 동작 조건을 이해하는 임베디드 개발자로 성장하고 있습니다.
 
-Here are some ideas to get you started:
+## About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 한국공학대학교 메카트로닉스공학 전공 / 스마트팩토리 복수전공
+- 오토노머스에이투지 차량시험팀 근무 (2025.07 ~ 2025.11)
+- 삼성 청년 SW 아카데미 SSAFY 16기 교육 중 (2026.07 ~)
+- 관심 분야: 임베디드 SW, 펌웨어, 장치 제어, 시스템 검증
+
+## Technical Skills
+
+| 분야 | 사용 기술 및 도구 |
+| :--- | :--- |
+| 프로그래밍 | C, Python |
+| MCU | STM32F429, Arduino |
+| 통신 | SPI, UART, Ethernet TCP/IP, CAN |
+| 제어 및 센서 처리 | PWM, Timer, Interrupt, Complementary Filter |
+| 개발 및 분석 도구 | STM32CubeIDE, CANoe, Git |
+| 계측 장비 | Oscilloscope, Power Supply |
+| 데이터 분석 | Pandas, NumPy, scikit-learn |
+
+## Projects
+
+### 1. 가변 바퀴와 영상처리를 이용한 붕괴 현장 수색 소형 로봇
+
+가변 바퀴와 헤드트래킹 카메라를 적용한 소형 수색로봇을 개발했습니다.
+
+- 역할: 팀장, 시스템 설계, MCU 기반 모터 제어, 무선 통신, 헤드트래킹
+- STM32 기반 BLDC 및 서보모터 제어
+- nRF24L01 모듈을 활용한 무선 제어
+- MPU6050과 상보필터를 활용한 헤드트래킹 구현
+- 제어부와 구동부의 전원을 분리해 구동 문제 개선
+- 성과: ICROS 2024 학부생 논문경진대회 학부생 논문상
+
+### 2. STM32 기반 스마트홈
+
+센서 기반 자동 제어와 Android 원격 제어를 구현했습니다.
+
+- Ethernet TCP/IP 기반 PC 및 Android와 STM32 연동
+- UART 기반 Arduino 센서 데이터 수신
+- 온습도와 빗물 센서 데이터를 활용한 자동 제어
+- 원격 명령 수신 후 동작하지 않는 문제를 MCU 입력 처리 수정으로 해결
+
+### 3. 제조 데이터 기반 품질 예측
+
+제조 데이터를 분석하고 품질 예측 모델을 개발했습니다.
+
+- 데이터 분포와 변수 간 관계 분석
+- 결측치 처리 및 데이터 전처리
+- 머신러닝 모델 비교와 성능 평가
+- Gradient Boost 모델 선정
+
+## Work Experience
+
+### 오토노머스에이투지 | 차량시험팀
+2025.07 ~ 2025.11
+
+- 전기차 1회 충전 주행거리, 전비, 도로부하계수 시험 수행
+- 국내외 인증 기준에 따른 시험 조건과 주행 시나리오 설계
+- CANoe를 활용한 차속, 전력 소비, SOC 데이터 수집 및 분석
+- 시험 절차와 이슈 발생 조건, 조치 사항 문서화
+
+## Awards & Activities
+
+- 2024 | ICROS 학부생 논문경진대회 학부생 논문상
+- 2023 | 총장배 로봇 프로그래밍 대회 햄스터로봇 C언어 부문 총괄
+- 2023 ~ 2024 | 학술동아리 MCC 회장
+- 2022 | 총장배 로봇 프로그래밍 대회 드론로봇 C언어 부문 1등 총장상
